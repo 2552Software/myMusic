@@ -39,7 +39,7 @@ void ofApp::setup(){
 
         // connect each voice to chorus
         synth.voices[i] >> chorus.in_L();
-        synth.voices[i] >> chorus.in_R();
+        synth.voices[i] >> chorus.in_R();          
     }
     
     // set up chorus
